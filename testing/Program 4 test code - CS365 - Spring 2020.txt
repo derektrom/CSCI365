@@ -1,0 +1,39 @@
+#test 1
+#basic test
+min = 0
+input a
+input b
+if a < b begin
+   min = a
+end else
+   min = b
+print min
+
+#test 2
+#check for nested begin end blocks
+if a == b begin		
+	if c == d begin	
+		x = 10
+	end else begin	
+		x = 20
+	end	
+end		
+
+
+#test 3
+#check for longer sequences of if statements
+if x == 10 if y == 20 if z == 30 print 100 else print 200
+
+#test 4
+#check for error token - make sure it is generated in the output from program 2
+input a
+input b
+print c % d
+#you should not see d in the output from program 2, it should stop after the %
+#make sure the error token is in the test file
+
+#test 5 - bonus test
+create an empty file, from windows just do this from the command line:
+c> copy con file5.txt and hit enter, then press F6 right away - it will show ^Z. This will create a file of 0 bytes
+See if the programs recognize a file of no tokens - if it doesn't work with the better students stop trying it, 
+it's just an idea

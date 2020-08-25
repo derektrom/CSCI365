@@ -1,0 +1,17 @@
+<if>, if
+<id>, x
+<rel>, ==
+<number>, 10
+<if>, if
+<id>, y
+<rel>, ==
+<number>, 20
+<if>, if
+<id>, z
+<rel>, ==
+<number>, 30
+<print>, print
+<number>, 100
+<else>, else
+<print>, print
+<number>, 200

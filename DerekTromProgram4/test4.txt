@@ -1,0 +1,7 @@
+<input>, input
+<id>, a
+<input>, input
+<id>, b
+<print>, print
+<id>, c
+<error>, %
